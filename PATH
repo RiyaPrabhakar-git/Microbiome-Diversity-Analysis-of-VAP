@@ -1,0 +1,38 @@
+vap-microbiome-Diversity-analysis/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│
+├── notebooks/
+│   ├── 01_data_audit.ipynb
+│   ├── 02_cohort_build.ipynb
+│   ├── 03_diversity_analysis.ipynb
+│   ├── 05_biomarker_integration.ipynb
+│   ├── 06_modeling.ipynb
+│   └── 07_reporting.ipynb
+│
+├── src/
+│   ├── preprocessing.py
+│   ├── diversity.py
+│   ├── statistics.py
+│   ├── modeling.py
+│   └── plotting.py
+│
+├── outputs/
+│   ├── figures/
+│   │   ├── biomarkers/
+│   │   ├── models/
+│   │   └── reporting/
+│   │
+│   ├── tables/
+│   ├── models/
+│   └── reporting/
+│
+└── docs/
+    ├── methods.md
+    └── results_summary.md
